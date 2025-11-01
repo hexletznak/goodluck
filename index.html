@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Фотки</title>
+  <script>
+    // Список фоток (ссылки на них)
+    const photos = [
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 8.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 9.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 10.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 11.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 26.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 27.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 14.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 15.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 16.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 17.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 28.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 29.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 20.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 21.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 22.png",
+      "https://raw.githubusercontent.com/hexletznak/qrphotos/main/Letter - 23.png"
+    ];
+
+    // Выбираем случайное фото
+    const i = Math.floor(Math.random() * photos.length);
+    // Показываем его
+    window.location.href = photos[i];
+  </script>
+</head>
+<body>
+  <p>Загрузка фото...</p>
+</body>
+</html>
